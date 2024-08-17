@@ -1,12 +1,12 @@
 :root {
   --gradient: linear-gradient(
     180deg,
-    rgba(45, 112, 1253, 0.73) 0%,
-    #000000 100%
+    rgb(0, 135, 239) 0%,
+    #101010 100%
   );
   --dark: #001747;
   --grey: #58595b;
-  --grey-border: rgba(210, 210, 210, 0.75);
+  --grey-border: rgba(44, 38, 38, 0.75);
   --grey-light: #eeeeee;
   --grey-dark: $405175;
   --blue: #2d70fd;
@@ -54,7 +54,7 @@ p {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 2rem;
-  background: var(--white);
+  background-color: var(--grey-light);
   padding: 3rem;
   height: 50%;
   width: 50%;
